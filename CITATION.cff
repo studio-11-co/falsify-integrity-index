@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you cite the PRML Integrity Index in academic or analytical work, please use the form below."
+title: "PRML Integrity Index: A scorecard of ML evaluation claim falsifiability"
+abstract: >-
+  A community-maintained scorecard rating well-known machine-learning
+  evaluation claims against nine falsifiability criteria derived from
+  the Pre-Registered ML Manifest (PRML) v0.1 specification. The Index
+  scores published format hygiene, not model quality. Snapshot version
+  2026-Q2 covers 25 entries spanning proprietary and open releases.
+authors:
+  - family-names: "Öztürk"
+    given-names: "Cüneyt"
+    affiliation: "Studio 11 Turkey Ltd. Şti."
+    email: "hello@studio-11.co"
+type: dataset
+license: CC0-1.0
+repository-code: "https://github.com/studio-11-co/falsify-integrity-index"
+url: "https://falsify.dev/integrity"
+version: "2026-Q2"
+date-released: 2026-05-08
+keywords:
+  - "PRML"
+  - "ML evaluation"
+  - "benchmark"
+  - "AI safety"
+  - "reproducibility"
+  - "scorecard"
+identifiers:
+  - type: url
+    value: "https://falsify.dev/integrity"
+    description: "Live rendered Index"
+  - type: url
+    value: "https://spec.falsify.dev/v0.1"
+    description: "PRML v0.1 specification (criteria source)"
+preferred-citation:
+  type: dataset
+  title: "PRML Integrity Index 2026-Q2"
+  authors:
+    - family-names: "Öztürk"
+      given-names: "Cüneyt"
+  year: 2026
+  url: "https://falsify.dev/integrity"
+  version: "2026-Q2"

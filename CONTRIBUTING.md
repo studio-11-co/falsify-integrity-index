@@ -69,4 +69,4 @@ By contributing, you agree that:
 
 ## Maintainers
 
-Cüneyt Öztürk · co-founder, Studio 11 · cuneyt@studio-11.co
+Cüneyt Öztürk · co-founder, Studio 11 · hello@studio-11.co
