@@ -1,5 +1,7 @@
 # PRML Integrity Index
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20177839.svg)](https://doi.org/10.5281/zenodo.20177839)
+
 > A public, reproducible scorecard of how well 25+ well-known ML evaluation claims meet the 9 falsifiability criteria PRML considers minimum hygiene.
 
 🌐 **Live page:** [falsify.dev/integrity](https://falsify.dev/integrity)
@@ -98,3 +100,5 @@ The Index was produced as part of the PRML v0.1 launch (2026-05) and is maintain
 ## Contributing
 
 See [`CONTRIBUTING.md`](./CONTRIBUTING.md) and the [`good first issue`](https://github.com/studio-11-co/falsify-integrity-index/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) label for scoped work.
+
+**Cite the spec:** Öztürk, C. (2026). *PRML v0.1*. Zenodo. [https://doi.org/10.5281/zenodo.20177839](https://doi.org/10.5281/zenodo.20177839)
