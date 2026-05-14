@@ -86,3 +86,15 @@ Cüneyt Öztürk, co-founder, Studio 11 Turkey Ltd. Şti.
 Contact: hello@studio-11.co · [falsify.dev](https://falsify.dev)
 
 The Index was produced as part of the PRML v0.1 launch (2026-05) and is maintained as a community resource. Submitting a re-score is not a hostile act; it is the intended workflow.
+
+
+---
+
+## Status
+
+- v0.1 stable. v0.2 RFC open through 2026-05-22 — [spec.falsify.dev/v0.2-rfc](https://spec.falsify.dev/v0.2-rfc).
+- The PRML JSON Schema is in the [SchemaStore catalog](https://www.schemastore.org/json/) (merged 2026-05-11), so `*.prml.yaml` files autocomplete in VS Code, JetBrains, Helix, Zed, and Cursor out of the box.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md) and the [`good first issue`](https://github.com/studio-11-co/falsify-integrity-index/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) label for scoped work.
