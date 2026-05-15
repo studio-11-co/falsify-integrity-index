@@ -6,7 +6,7 @@
 
 🌐 **Live page:** [falsify.dev/integrity](https://falsify.dev/integrity)
 📖 **Spec:** [spec.falsify.dev/v0.1](https://spec.falsify.dev/v0.1)
-📜 **License:** CC0 1.0 (data) · MIT (tooling)
+📜 **License:** CC0 1.0 — public domain dedication for data and tooling
 
 ---
 
@@ -64,7 +64,7 @@ data/
     rescore.md       # template for re-score requests
     add-entry.md     # template for new entries
 README.md            # this file
-LICENSE              # CC0 1.0 (data) and MIT (tooling) — see file
+LICENSE              # CC0 1.0 — see file
 CONTRIBUTING.md      # how to propose changes
 ```
 
@@ -79,8 +79,7 @@ The Index is versioned by quarter. A re-scored entry produces a delta entry in `
 
 ## License
 
-- Data (`data/entries.json`, `data/changelog.md`, this README): **CC0 1.0** — public domain dedication. Mirror, fork, dispute, re-derive without attribution.
-- Any tooling added later: **MIT**.
+- Everything in this repository (data, README, any tooling): **CC0 1.0** — public domain dedication. Mirror, fork, dispute, re-derive without attribution required.
 
 ## Authors
 
