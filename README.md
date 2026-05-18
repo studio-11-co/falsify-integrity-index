@@ -70,6 +70,15 @@ CONTRIBUTING.md      # how to propose changes
 
 The page at [falsify.dev/integrity](https://falsify.dev/integrity) is rendered from `data/entries.json` (currently inlined in the page; the repo is the auditable source).
 
+
+## Audit & compliance crosswalks
+
+Subcategory-by-subcategory maps from major AI governance frameworks to PRML fields (FULL / PARTIAL / NONE tagged):
+
+- [EU AI Act Article 12](https://spec.falsify.dev/eu-ai-act/article-12/) — code-level pattern for the 2 August 2026 high-risk deadline
+- [NIST AI RMF 1.0](https://spec.falsify.dev/nist-ai-rmf/) — GOVERN / MAP / MEASURE / MANAGE subcategory map
+- [ISO/IEC 42001:2023](https://spec.falsify.dev/iso-42001/) — AI Management System clause-by-clause evidence map
+
 ## Versioning
 
 The Index is versioned by quarter. A re-scored entry produces a delta entry in `data/changelog.md` so historical versions are reproducible.
