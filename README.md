@@ -1,6 +1,6 @@
 # PRML Integrity Index
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20177839.svg)](https://doi.org/10.5281/zenodo.20177839)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20177839-blue.svg)](https://doi.org/10.5281/zenodo.20177839)
 
 > A public, reproducible scorecard of how well 25+ well-known ML evaluation claims meet the 9 falsifiability criteria PRML considers minimum hygiene.
 
