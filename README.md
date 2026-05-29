@@ -92,8 +92,8 @@ The Index is versioned by quarter. A re-scored entry produces a delta entry in `
 
 ## Authors
 
-Cüneyt Öztürk, co-founder, Studio 11 Turkey Ltd. Şti.
-Contact: hello@studio-11.co · [falsify.dev](https://falsify.dev)
+Cüneyt Öztürk
+Contact: hello@falsify.dev · [falsify.dev](https://falsify.dev)
 
 The Index was produced as part of the PRML v0.1 launch (2026-05) and is maintained as a community resource. Submitting a re-score is not a hostile act; it is the intended workflow.
 
