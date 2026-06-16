@@ -14,30 +14,433 @@
     "pre_registered"
   ],
   "entries": [
-    {"name":"GPT-4 Technical Report — MMLU","source":"OpenAI, 2023, arXiv:2303.08774","url":"https://arxiv.org/abs/2303.08774","bits":[1,1,1,0,0,0,0,0,0],"note":"Metric and value reported. Model identifier is 'GPT-4' without a build pin; dataset version, sample seeds, and pre-registration are absent in the public source."},
-    {"name":"Claude 3 Model Card — GPQA","source":"Anthropic Model Card, 2024","url":"https://www.anthropic.com/news/claude-3-family","bits":[1,1,1,0,1,0,1,0,0],"note":"Per-model build is pinned (claude-3-opus-20240229). Dataset is named without a content hash. Threshold direction and pre-registration timestamp are not present."},
-    {"name":"Llama 3 Paper — HumanEval pass@1","source":"Meta, 2024, arXiv:2407.21783","url":"https://arxiv.org/abs/2407.21783","bits":[1,1,1,0,1,1,1,0,0],"note":"Pass@1 implies a direction. Model variants (8B / 70B / 405B) are explicit. HumanEval is named; the dataset hash is not committed in the canonical paper."},
-    {"name":"Gemini 1.5 Tech Report — MMLU","source":"Google DeepMind, 2024, arXiv:2403.05530","url":"https://arxiv.org/abs/2403.05530","bits":[1,1,1,0,0,0,0,0,0],"note":"'Gemini 1.5 Pro' is named without a checkpoint hash. MMLU is named without a fixed revision. Sample-size detail is paragraph-level prose, not a structured field."},
-    {"name":"DeepSeek-V3 Tech Report — MATH-500","source":"DeepSeek-AI, 2024, arXiv:2412.19437","url":"https://arxiv.org/abs/2412.19437","bits":[1,1,1,0,1,1,1,0,0],"note":"Open weights have stable hashes via HF model SHA. Paper reports value with direction. Pre-registration and seeds are not part of the published format."},
-    {"name":"Mistral Large 2 — MMLU","source":"Mistral AI release notes, 2024","url":"https://mistral.ai/news/mistral-large-2407","bits":[1,1,1,0,1,0,0,0,0],"note":"Release page names the model build (mistral-large-2407). Eval set is named without revision pin; pre-registration and sample-size structure absent."},
-    {"name":"Phi-3 Technical Report — GSM8K","source":"Microsoft, 2024, arXiv:2404.14219","url":"https://arxiv.org/abs/2404.14219","bits":[1,1,1,0,1,1,1,1,0],"note":"Phi family papers cite seed in some tables. Strong on most fields; pre-registration timestamp is absent (a structural gap, not a Microsoft-specific issue)."},
-    {"name":"Qwen2.5 Technical Report — MATH","source":"Alibaba, 2024, arXiv:2412.15115","url":"https://arxiv.org/abs/2412.15115","bits":[1,1,1,0,1,1,1,0,0],"note":"Open weights pin model identity. Sample sizes per benchmark are tabulated. Dataset hash and pre-registration absent."},
-    {"name":"Inflection-2.5 — MMLU","source":"Inflection AI, 2024 release","url":"https://inflection.ai/inflection-2-5","bits":[1,1,1,0,0,0,0,0,0],"note":"Release announcement names the metric and dataset family. No build identifier, no sample structure, no pre-registration anchor in the published source."},
-    {"name":"Grok-2 — MMLU","source":"xAI, 2024 release","url":"https://x.ai/blog/grok-2","bits":[1,1,1,0,0,0,0,0,0],"note":"Release blog format. Model name without build pin. No structural eval metadata in the public artifact (a property of release-blog format, not Grok-specific)."},
-    {"name":"Yi-Large — MMLU","source":"01.AI, 2024","url":"https://01.ai","bits":[1,1,1,0,1,0,0,0,0],"note":"Open weights provide model identity via HF SHA. Sample-size and seed structure absent in the public release notes."},
-    {"name":"Reka Core — MMMU","source":"Reka AI, 2024 tech card","url":"https://www.reka.ai/news/reka-core","bits":[1,1,1,0,0,0,0,0,0],"note":"Tech card format. Build pin and structural eval metadata absent."},
-    {"name":"Cohere Command-R+ — RAG eval","source":"Cohere, 2024 release","url":"https://cohere.com/blog/command-r-plus-microsoft-azure","bits":[1,1,1,0,1,0,0,0,0],"note":"Build identifier (command-r-plus) is stable. RAG-specific evals are described prose-style; no structured manifest in the canonical source."},
-    {"name":"BigBench-Hard — original release","source":"Suzgun et al., 2022, arXiv:2210.09261","url":"https://arxiv.org/abs/2210.09261","bits":[1,1,1,1,1,0,1,1,0],"note":"Academic origin: dataset hash is implicit via repo SHA. Seeds tabulated. Pre-registration is the missing field — not because the paper is weak but because PRML didn't exist."},
-    {"name":"HELM Lite — release scoreboard","source":"Stanford CRFM, 2024","url":"https://crfm.stanford.edu/helm/lite/latest/","bits":[1,1,1,1,1,1,1,1,0],"note":"HELM is the closest-to-PRML structure in the wild. Per-model SHA, dataset revisions, seeds, and sample sizes are recorded. Pre-registration timestamp is the gap — addressable via a registry anchor."},
-    {"name":"OpenLLM Leaderboard v2","source":"HuggingFace, 2024","url":"https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard","bits":[1,1,1,1,1,1,1,1,0],"note":"Open weights, fixed eval harness, public commit hashes for both. Pre-registration absent; runs are reactive to model release, not pre-committed."},
-    {"name":"GAIA Benchmark — paper","source":"Mialon et al., 2023, arXiv:2311.12983","url":"https://arxiv.org/abs/2311.12983","bits":[1,1,1,1,1,1,1,0,0],"note":"Benchmark paper carries explicit dataset and metric structure. Pre-registration timestamp absent (PRML-shaped gap, common to academic format)."},
-    {"name":"AlpacaEval 2.0 — leaderboard","source":"Tatsu Lab, 2024","url":"https://tatsu-lab.github.io/alpaca_eval/","bits":[1,1,1,0,1,1,0,0,0],"note":"Win-rate eval, judge model versioned. Dataset hash and per-run sample sizes not pinned in the public scorecard."},
-    {"name":"MT-Bench — leaderboard","source":"LMSYS, 2023+","url":"https://lmsys.org/blog/2023-06-22-leaderboard/","bits":[1,1,1,0,1,1,0,0,0],"note":"Judge-model approach. Seeds and per-run sample structure not part of the leaderboard format."},
-    {"name":"Chatbot Arena — Elo leaderboard","source":"LMSYS, ongoing","url":"https://chat.lmsys.org/","bits":[1,1,1,1,1,0,1,0,0],"note":"Live, reproducible vote stream; sample size visible. Threshold direction n/a for Elo. Pre-registration applies differently to live systems — v0.2 is examining a streaming variant."},
-    {"name":"AISI — pre-deployment eval (2024 batch)","source":"UK AI Safety Institute, 2024 reports","url":"https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations","bits":[1,1,1,1,1,1,1,1,0],"note":"Government-grade evaluation, with most structural fields recorded internally. Pre-registration absent because no shared anchor format yet exists — the gap PRML aims to close."},
-    {"name":"Apollo Scheming evals — paper","source":"Apollo Research, 2024","url":"https://www.apolloresearch.ai/blog","bits":[1,1,1,1,1,1,1,1,0],"note":"High-rigor adversarial evaluation. Most fields documented. Pre-registration timestamp is absent because the publication date is post-run."},
-    {"name":"METR — Capability Eval batch","source":"METR, 2024 reports","url":"https://metr.org/blog","bits":[1,1,1,1,1,1,1,1,1],"note":"METR's task-specification format ships closest to a pre-registered structure. The 9/9 here is partially generous: pre-registration is implicit in the task-launch format, not stamped explicitly."},
-    {"name":"Gradient Pre-Registration Trial — sample run","source":"Cüneyt Öztürk example, 2026","url":"https://registry.falsify.dev","bits":[1,1,1,1,1,1,1,1,1],"note":"A run anchored against the registry. Included as a calibration row: this is what 9/9 looks like when the format is the artifact."},
-    {"name":"PRML self-eval (this site)","source":"falsify.dev/check, 2026","url":"https://falsify.dev/check","bits":[1,1,1,1,1,1,1,1,1],"note":"The widget itself, when fed a complete PRML manifest, scores 9/9 — by construction. Useful as a structural reference."}
+    {
+      "name": "GPT-4 Technical Report — MMLU",
+      "source": "OpenAI, 2023, arXiv:2303.08774",
+      "url": "https://arxiv.org/abs/2303.08774",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "note": "Metric and value reported. Model identifier is 'GPT-4' without a build pin; dataset version, sample seeds, and pre-registration are absent in the public source."
+    },
+    {
+      "name": "Claude 3 Model Card — GPQA",
+      "source": "Anthropic Model Card, 2024",
+      "url": "https://www.anthropic.com/news/claude-3-family",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "note": "Per-model build is pinned (claude-3-opus-20240229). Dataset is named without a content hash. Threshold direction and pre-registration timestamp are not present."
+    },
+    {
+      "name": "Llama 3 Paper — HumanEval pass@1",
+      "source": "Meta, 2024, arXiv:2407.21783",
+      "url": "https://arxiv.org/abs/2407.21783",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "note": "Pass@1 implies a direction. Model variants (8B / 70B / 405B) are explicit. HumanEval is named; the dataset hash is not committed in the canonical paper."
+    },
+    {
+      "name": "Gemini 1.5 Tech Report — MMLU",
+      "source": "Google DeepMind, 2024, arXiv:2403.05530",
+      "url": "https://arxiv.org/abs/2403.05530",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "note": "'Gemini 1.5 Pro' is named without a checkpoint hash. MMLU is named without a fixed revision. Sample-size detail is paragraph-level prose, not a structured field."
+    },
+    {
+      "name": "DeepSeek-V3 Tech Report — MATH-500",
+      "source": "DeepSeek-AI, 2024, arXiv:2412.19437",
+      "url": "https://arxiv.org/abs/2412.19437",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "note": "Open weights have stable hashes via HF model SHA. Paper reports value with direction. Pre-registration and seeds are not part of the published format."
+    },
+    {
+      "name": "Mistral Large 2 — MMLU",
+      "source": "Mistral AI release notes, 2024",
+      "url": "https://mistral.ai/news/mistral-large-2407",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "note": "Release page names the model build (mistral-large-2407). Eval set is named without revision pin; pre-registration and sample-size structure absent."
+    },
+    {
+      "name": "Phi-3 Technical Report — GSM8K",
+      "source": "Microsoft, 2024, arXiv:2404.14219",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "note": "Phi family papers cite seed in some tables. Strong on most fields; pre-registration timestamp is absent (a structural gap, not a Microsoft-specific issue)."
+    },
+    {
+      "name": "Qwen2.5 Technical Report — MATH",
+      "source": "Alibaba, 2024, arXiv:2412.15115",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "note": "Open weights pin model identity. Sample sizes per benchmark are tabulated. Dataset hash and pre-registration absent."
+    },
+    {
+      "name": "Inflection-2.5 — MMLU",
+      "source": "Inflection AI, 2024 release",
+      "url": "https://inflection.ai/inflection-2-5",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "note": "Release announcement names the metric and dataset family. No build identifier, no sample structure, no pre-registration anchor in the published source."
+    },
+    {
+      "name": "Grok-2 — MMLU",
+      "source": "xAI, 2024 release",
+      "url": "https://x.ai/blog/grok-2",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "note": "Release blog format. Model name without build pin. No structural eval metadata in the public artifact (a property of release-blog format, not Grok-specific)."
+    },
+    {
+      "name": "Yi-Large — MMLU",
+      "source": "01.AI, 2024",
+      "url": "https://01.ai",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "note": "Open weights provide model identity via HF SHA. Sample-size and seed structure absent in the public release notes."
+    },
+    {
+      "name": "Reka Core — MMMU",
+      "source": "Reka AI, 2024 tech card",
+      "url": "https://www.reka.ai/news/reka-core",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "note": "Tech card format. Build pin and structural eval metadata absent."
+    },
+    {
+      "name": "Cohere Command-R+ — RAG eval",
+      "source": "Cohere, 2024 release",
+      "url": "https://cohere.com/blog/command-r-plus-microsoft-azure",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "note": "Build identifier (command-r-plus) is stable. RAG-specific evals are described prose-style; no structured manifest in the canonical source."
+    },
+    {
+      "name": "BigBench-Hard — original release",
+      "source": "Suzgun et al., 2022, arXiv:2210.09261",
+      "url": "https://arxiv.org/abs/2210.09261",
+      "bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "note": "Academic origin: dataset hash is implicit via repo SHA. Seeds tabulated. Pre-registration is the missing field — not because the paper is weak but because PRML didn't exist."
+    },
+    {
+      "name": "HELM Lite — release scoreboard",
+      "source": "Stanford CRFM, 2024",
+      "url": "https://crfm.stanford.edu/helm/lite/latest/",
+      "bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "note": "HELM is the closest-to-PRML structure in the wild. Per-model SHA, dataset revisions, seeds, and sample sizes are recorded. Pre-registration timestamp is the gap — addressable via a registry anchor."
+    },
+    {
+      "name": "OpenLLM Leaderboard v2",
+      "source": "HuggingFace, 2024",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "note": "Open weights, fixed eval harness, public commit hashes for both. Pre-registration absent; runs are reactive to model release, not pre-committed."
+    },
+    {
+      "name": "GAIA Benchmark — paper",
+      "source": "Mialon et al., 2023, arXiv:2311.12983",
+      "url": "https://arxiv.org/abs/2311.12983",
+      "bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "note": "Benchmark paper carries explicit dataset and metric structure. Pre-registration timestamp absent (PRML-shaped gap, common to academic format)."
+    },
+    {
+      "name": "AlpacaEval 2.0 — leaderboard",
+      "source": "Tatsu Lab, 2024",
+      "url": "https://tatsu-lab.github.io/alpaca_eval/",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "note": "Win-rate eval, judge model versioned. Dataset hash and per-run sample sizes not pinned in the public scorecard."
+    },
+    {
+      "name": "MT-Bench — leaderboard",
+      "source": "LMSYS, 2023+",
+      "url": "https://lmsys.org/blog/2023-06-22-leaderboard/",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "note": "Judge-model approach. Seeds and per-run sample structure not part of the leaderboard format."
+    },
+    {
+      "name": "Chatbot Arena — Elo leaderboard",
+      "source": "LMSYS, ongoing",
+      "url": "https://chat.lmsys.org/",
+      "bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "note": "Live, reproducible vote stream; sample size visible. Threshold direction n/a for Elo. Pre-registration applies differently to live systems — v0.2 is examining a streaming variant."
+    },
+    {
+      "name": "AISI — pre-deployment eval (2024 batch)",
+      "source": "UK AI Safety Institute, 2024 reports",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations",
+      "bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "note": "Government-grade evaluation, with most structural fields recorded internally. Pre-registration absent because no shared anchor format yet exists — the gap PRML aims to close."
+    },
+    {
+      "name": "Apollo Scheming evals — paper",
+      "source": "Apollo Research, 2024",
+      "url": "https://www.apolloresearch.ai/blog",
+      "bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "note": "High-rigor adversarial evaluation. Most fields documented. Pre-registration timestamp is absent because the publication date is post-run."
+    },
+    {
+      "name": "METR — Capability Eval batch",
+      "source": "METR, 2024 reports",
+      "url": "https://metr.org/blog",
+      "bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "note": "METR's task-specification format ships closest to a pre-registered structure. The 9/9 here is partially generous: pre-registration is implicit in the task-launch format, not stamped explicitly."
+    }
+  ],
+  "measures": "STRUCTURAL DISCLOSURE COMPLETENESS of a published eval claim — whether a third party could re-verify it from the public source. NOT honesty, NOT quality. A low score means under-specified, not wrong.",
+  "reference_examples": [
+    {
+      "name": "Gradient Pre-Registration Trial — sample run",
+      "source": "Cüneyt Öztürk example, 2026",
+      "url": "https://registry.falsify.dev",
+      "bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "note": "A run anchored against the registry. Included as a calibration row: this is what 9/9 looks like when the format is the artifact."
+    },
+    {
+      "name": "PRML self-eval (this site)",
+      "source": "falsify.dev/check, 2026",
+      "url": "https://falsify.dev/check",
+      "bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "note": "The widget itself, when fed a complete PRML manifest, scores 9/9 — by construction. Useful as a structural reference."
+    }
   ]
 }

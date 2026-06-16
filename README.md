@@ -1,4 +1,6 @@
-# PRML Integrity Index
+# PRML Disclosure Index
+
+> Measures **structural disclosure completeness** of a published eval claim — whether a third party could re-verify it from the public source. **Not honesty, not quality.** A low score means under-specified, not wrong. Self/reference manifests are listed separately under `reference_examples`, not ranked.
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20177839-blue.svg)](https://doi.org/10.5281/zenodo.20177839)
 
