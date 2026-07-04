@@ -85,7 +85,7 @@ Subcategory-by-subcategory maps from major AI governance frameworks to PRML fiel
 
 The Index is versioned by quarter. A re-scored entry produces a delta entry in `data/changelog.md` so historical versions are reproducible.
 
-- `2026-Q3` — adds 4 frontier claims from canonical sources (GPT-5.5 · Gemini 3.1 Pro · Claude Opus 4.7 · Claude Mythos 5); pre-registration remains 0/27. Two aggregator mis-quotes corrected against canonical values (87.6% not 91.0%; 94.1% not 94.6%). (this version)
+- `2026-Q3` — adds 4 frontier claims from canonical sources (GPT-5.5 · Gemini 3.1 Pro · Claude Opus 4.7 · Claude Mythos 5); explicit pre-registration remains absent in all 4 new entries (index-wide 1/27, METR's implicit-format exception). Two aggregator mis-quotes corrected against canonical values (87.6% not 91.0%; 94.1% not 94.6%). (this version)
 - `2026-Q2` — initial release
 - `2026-Q3` — planned: 50 entries, including more open-weight claims and AISI/METR-style audited evaluations
 
