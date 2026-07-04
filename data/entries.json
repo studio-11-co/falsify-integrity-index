@@ -1,6 +1,6 @@
 {
-  "version": "2026-Q2",
-  "generated": "2026-05-08",
+  "version": "2026-Q3",
+  "generated": "2026-07-04",
   "schema": "./schema.json",
   "criteria_order": [
     "metric_named",
@@ -404,6 +404,74 @@
         1
       ],
       "note": "METR's task-specification format ships closest to a pre-registered structure. The 9/9 here is partially generous: pre-registration is implicit in the task-launch format, not stamped explicitly."
+    },
+    {
+      "name": "GPT-5.5 — Terminal-Bench 2.0",
+      "source": "OpenAI announcement, 2026-04-23",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "note": "Announcement names accuracy, value and benchmark ('a state-of-the-art accuracy of 82.7%'), with candid memorization footnotes elsewhere in the post. No eval-set revision, no model snapshot ID (API 'coming very soon' at publication), no N, no seed, no pre-registration."
+    },
+    {
+      "name": "Gemini 3.1 Pro — ARC-AGI-2",
+      "source": "Google announcement blog, 2026-02-19",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "note": "Launch blog reports a third-party-verified 77.1% on ARC-AGI-2; the metric is named only generically as 'score'. The evaluated build is not disclosed (an undated preview ID appears only inside an AI Studio link) and the comparison table is an animated image; no revision pin, N, seed, or pre-registration."
+    },
+    {
+      "name": "Claude Opus 4.7 — SWE-bench Verified",
+      "source": "Anthropic announcement, 2026-04-16",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "note": "The 87.6% value appears only inside a chart image, with no metric label (scored per index convention: a benchmark's conventional metric counts as named). The API identifier claude-opus-4-7 pins the model (undated). A footnote discloses a memorization screen but not the excluded subset. Widely mis-quoted as 91.0% by aggregators — the canonical figure is 87.6%."
+    },
+    {
+      "name": "Claude Mythos 5 — GPQA Diamond",
+      "source": "Anthropic system card §8.8, 2026",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "note": "The 317-page system card discloses metric, value, dataset and N ('198-question Diamond subset… averaged over 5 trials') — the most complete disclosure in this cohort. Still no dataset pin, no dated snapshot ID for the claiming model, no seed, no pre-committed bar. Aggregators cite 94.6% (a preview build); the canonical figure is 94.1%."
     }
   ],
   "measures": "STRUCTURAL DISCLOSURE COMPLETENESS of a published eval claim — whether a third party could re-verify it from the public source. NOT honesty, NOT quality. A low score means under-specified, not wrong.",

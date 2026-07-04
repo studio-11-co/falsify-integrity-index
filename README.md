@@ -14,7 +14,7 @@
 
 ## What this is
 
-A snapshot dated 2026-Q2 that scores well-known evaluation claims (proprietary and open) against the eight-field PRML manifest format plus one extra criterion (pre-registration timestamp).
+A snapshot dated 2026-Q3 that scores well-known evaluation claims (proprietary and open) against the eight-field PRML manifest format plus one extra criterion (pre-registration timestamp).
 
 **This is heuristic, not authoritative.** The score reflects the canonical *public* source of each claim — what the publisher chose to record. Two claims with the same accuracy can score very differently here. That's the point: the score reflects format hygiene, not model quality.
 
@@ -85,7 +85,8 @@ Subcategory-by-subcategory maps from major AI governance frameworks to PRML fiel
 
 The Index is versioned by quarter. A re-scored entry produces a delta entry in `data/changelog.md` so historical versions are reproducible.
 
-- `2026-Q2` — initial release (this version)
+- `2026-Q3` — adds 4 frontier claims from canonical sources (GPT-5.5 · Gemini 3.1 Pro · Claude Opus 4.7 · Claude Mythos 5); pre-registration remains 0/27. Two aggregator mis-quotes corrected against canonical values (87.6% not 91.0%; 94.1% not 94.6%). (this version)
+- `2026-Q2` — initial release
 - `2026-Q3` — planned: 50 entries, including more open-weight claims and AISI/METR-style audited evaluations
 
 ## License
